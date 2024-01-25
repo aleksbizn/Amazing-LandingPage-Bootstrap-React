@@ -9,13 +9,13 @@ const App = () => (
   <div className="container">
     <Menu />
     <Hero />
-    <Services />
+    {/* <Services />
     <CTA />
     <CaseStudies />
     <Process />
     <Team />
     <Testimonials />
-    <Contact />
+    <Contact /> */}
     <Footer />
   </div>
 );
