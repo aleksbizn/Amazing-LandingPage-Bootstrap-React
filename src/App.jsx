@@ -9,8 +9,8 @@ const App = () => (
   <div className="container">
     <Menu />
     <Hero />
-    {/* <Services />
-    <CTA />
+    <Services />
+    {/* <CTA />
     <CaseStudies />
     <Process />
     <Team />

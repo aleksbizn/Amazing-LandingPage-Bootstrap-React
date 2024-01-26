@@ -6,9 +6,9 @@ import { BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <div className="row align-items-center">
+      <div className="row align-items-center border-bottom border-dark">
         <div className="col-md-2 col-12">
-          <img src={images.logofooter} alt="logo" className="img-fluid" />
+          <img src={images.logo} alt="logo" className="img-fluid" />
         </div>
         <div className="col-md-8 col-12 ">
           <ul className="navbar-footer">
@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="row">
 
-        <div className="col-md-4 col-12">
+        {/* <div className="col-md-4 col-12">
           <ul className="info-contact">
             <li> <span>Contact us:</span></li>
             <li>Email: info@positivus.com</li>
@@ -41,10 +41,10 @@ const Footer = () => {
             </div>
           </form>
 
-        </div>
+        </div> */}
 
         <div className="rights">
-          <p>© 2023 Positivus. All Rights Reserved.</p>
+          <p>© 2024 Manya Kulak. All Rights Reserved.</p>
           <p><a href="#" alt="Privacy Policy">Privacy Policy</a></p>
 
         </div>

@@ -3,8 +3,8 @@
 :root {
     --font-base: 'Space Grotesk', sans-serif;
     --color-text: #000000;
-    --color-highlight: #B9FF66;
-    --color-dark: #191A23;
+    --color-highlight: #f5f8f3;
+    --color-dark: #d2d3e2;
     --color-grey: #F3F3F3;
 }
 
@@ -78,15 +78,17 @@ input[type="text"] {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #191A23;
-    border-radius: 14px;
+    background: #ffffff;
+    border-radius: 4px;
     border: none;
-    color: #fff;
+    /* color: #fff; */
+    border: 3px solid;
 
 }
 
 .btn-positivus:hover {
     transform: scale(1.1);
+
 }
 
 @media(max-width: 768px) {

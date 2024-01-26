@@ -2,35 +2,35 @@ import images from './images';
 
 const Menu = [
     {
-        text: 'About us',
+        text: 'About',
         link: '#team',
     },
     {
-        text: 'Services',
+        text: 'Work',
         link: '#services',
     },
-    {
-        text: 'Use Cases',
-        link: '#use-cases',
-    },
-    {
-        text: 'Process',
-        link: '#process',
-    },
+    // {
+    //     text: 'Use Cases',
+    //     link: '#use-cases',
+    // },
+    // {
+    //     text: 'Process',
+    //     link: '#process',
+    // },
 
+    // {
+    //     text: 'Testimonials',
+    //     link: '#testimonials',
+    // },
     {
-        text: 'Testimonials',
-        link: '#testimonials',
-    },
-    {
-        text: 'Request a quote',
+        text: 'Contact',
         link: '#quote',
     }
 ];
 const ServicesData = [
     {
-        titleone: 'Search engine',
-        titletwo: 'optimization',
+        titleone: 'A kitten.',
+        titletwo: 'Just a kitten who likes shopping.',
         link: '#',
         itemclass: 'blight',
         imgURL: images.services01,
