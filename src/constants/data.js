@@ -1,12 +1,12 @@
 import images from './images';
 
 const Menu = [
+    // {
+    //     text: 'About',
+    //     link: '#team',
+    // },
     {
-        text: 'About',
-        link: '#team',
-    },
-    {
-        text: 'Work',
+        text: 'WORKS',
         link: '#services',
     },
     // {
@@ -23,7 +23,7 @@ const Menu = [
     //     link: '#testimonials',
     // },
     {
-        text: 'Contact',
+        text: 'ABOUT',
         link: '#quote',
     }
 ];

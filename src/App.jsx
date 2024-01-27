@@ -8,7 +8,7 @@ import { Menu } from './components';
 const App = () => (
   <div className="container">
     <Menu />
-    <Hero />
+    {/* <Hero /> */}
     <Services />
     {/* <CTA />
     <CaseStudies />
