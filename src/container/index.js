@@ -4,7 +4,7 @@ import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
 import Process from './Process/Process';
-import Services from './Services/Services';
+import Gallary from './Gallary/Gallary';
 import Team from './Team/Team';
 import CTA from './CTA/CTA';
 
@@ -16,6 +16,6 @@ export {
     Footer,
     Hero,
     Process,
-    Services,
+    Gallary,
     Team,
 }
