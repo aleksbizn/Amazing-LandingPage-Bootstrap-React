@@ -2,8 +2,10 @@ import React from "react";
 
 const Project_1 = () => {
   return (
-    <div id="services" className="d-block pt-md-4">
-      <span>Project_1</span>
+    <div className="d-block pt-md-4 badge bg-primary text-wrap">
+      <p class="text-center text-uppercase fs-40">
+        <span>Project_1</span>
+      </p>
     </div>
   );
 };

@@ -36,9 +36,9 @@ const PreviewData = [
         imgURL: images.services01,
     },
     {
-        titleone: 'Pay-per-click',
-        titletwo: 'advertising',
-        link: '#',
+        titleone: 'eco-poster "CATCH ',
+        titletwo: 'YOUR ECO WAVE"',
+        link: 'project_2',
         itemclass: 'bgreen',
         imgURL: images.services02,
     },

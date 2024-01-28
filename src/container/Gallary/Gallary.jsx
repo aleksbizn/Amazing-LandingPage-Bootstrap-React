@@ -44,26 +44,31 @@ const Gallary = () => {
     //   </div>
     // </div>
 
-
-
-
-<div id="services" className="d-block pt-md-4">
+    <div id="services" className="d-block pt-md-4">
       <div className="row g-4">
-        {data.PreviewData.map(({ titleone, titletwo, link, itemclass, imgURL }, index) => (
-          <div className={`col-lg-4 col-12`} key={index}>
-            <div
-              className={`card card-bg-img h-100 rounded-4 ${itemclass}`}
-              style={{ backgroundImage: `url(${imgURL})` }}
-            >
-              <div className="card-bg-img-content d-flex flex-column align-items-center justify-content-center h-100">
-                {/* <a href={link} className="card-bg-img-link text-center"> */}
-                  <Link to={link} ><span>{titleone} </span></Link>
-                  <span>{titletwo}</span>
-                {/* </a> */}
+        {data.PreviewData.map(
+          ({ titleone, titletwo, link, itemclass, imgURL }, index) => (
+            <div className={`col-lg-4 col-12`} key={index}>
+              <div
+                className={`card card-bg-img h-100 rounded-4 ${itemclass}`}
+                style={{ backgroundImage: `url(${imgURL})` }}
+              >
+                <div className="card-bg-img-content d-flex flex-column align-items-center justify-content-center h-100">
+                  {/* <a href={link} className="card-bg-img-link text-center"> */}
+                  <Link
+                    to={link}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <span>{titleone} </span>
+                    <span>{titletwo}</span>
+                  </Link>
+
+                  {/* </a> */}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          )
+        )}
       </div>
     </div>
   );
