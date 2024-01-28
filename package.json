@@ -2,7 +2,6 @@
   "name": "Manya",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pameschurrer.es/positivus",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "eslint": "^8.56.0",
