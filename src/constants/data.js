@@ -38,7 +38,7 @@ const PreviewData = [
     {
         titleone: 'eco-poster "CATCH ',
         titletwo: 'YOUR ECO WAVE"',
-        link: 'project_2',
+        link: 'eco-poster',
         itemclass: 'bgreen',
         imgURL: images.services02,
     },

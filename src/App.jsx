@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Testimonials, CaseStudies, Contact, Footer, Hero, Process, Gallary, Team , CTA} from './container';
 import  Aboutpage  from './pages/Aboutpage';
-import  Project_1  from './pages/projects/Project_1';
+import   Project1     from './pages/projects/Project1';
+import   Project2     from './pages/projects/Project_2';
+
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
 
@@ -17,7 +19,10 @@ const App = () => (
           <Route path="/" element={<Layout />}>
             <Route index element={<Gallary />} />
             <Route path="about" element={<Aboutpage />} />
-            <Route path="project_1" element={<Project_1 />} />
+            {/* map links*/}
+            <Route path="Project_1" element={<Project1 />} />
+            <Route path="eco-poster" element={<Project2 />} />
+            {/* <Route path=":projectName" element={<ProjectPage />} /> */}
             {/* <Route path="register" element={<SignUp />} /> */}
             {/* <Route path="*" element={<NotFound />} /> */}
           </Route>

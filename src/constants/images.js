@@ -21,6 +21,7 @@ import team05 from '../assets/team05.png';
 import team06 from '../assets/team06.png';
 import team01 from '../assets/team01.png';
 import hero from '../assets/hero.png';
+import about from '../assets/about.png';
 
 export default{
 thingshappen,
@@ -46,5 +47,6 @@ team05,
 team06,
 team01,
 hero,
+about
 
 };
