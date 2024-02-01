@@ -1,7 +1,11 @@
 import "./Aboutpage.css";
 
-import { images } from '../constants';
-import { HomeModernIcon, AcademicCapIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { images } from "../constants";
+import {
+  HomeModernIcon,
+  AcademicCapIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/solid";
 
 import React from "react";
 import { Container, Row, Col, Image, ListGroup } from "react-bootstrap";
@@ -10,7 +14,7 @@ const About = () => {
   const { about } = images;
 
   return (
-    <Container fluid className="p-5 about-container">
+    <Container fluid>
       <Row className="g-4">
         <Col md={6}>
           <Image
@@ -18,7 +22,7 @@ const About = () => {
             alt="Your photo"
             className="border "
             width="100%"
-            rounded 
+            rounded
             // height="600px"
             // height="auto"
           />
@@ -34,28 +38,31 @@ const About = () => {
             </Col>
           </Row>
         </Col>
-        <Col md={6}>
-          <h2 className="mb-4">About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget
-            ligula vitae nisi tincidunt dapibus. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas.
-            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit
-            amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.
+        <Col md={6} className="text-end">
+          {/* <h2 className="mb-4">About Me</h2> */}
+          <p className="mb-5">
+            Manya Kulak is an artist, illustrator, character desinger.
+            <br /> She loves to create things playful and funny.
+            <br /> To get in contact, please email
+            <br />
+            manyakulakart@gmail.com
           </p>
-          <h3 className="mb-3">Skills</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            eget ligula vitae nisi tincidunt dapibus. Pellentesque habitant
-            morbi tristique senectus et netus et malesuada fames ac turpis
-            egestas.
+          <h3 className="mb-3">selected clients:</h3>
+          <p className="mb-5">
+            Yandex, Mail.ru, Esquire Russia, The Blueprint,
+            <br /> Aloha, Veam, Perspectum, Scoop, Polle
           </p>
-          <h3 className="mb-3">Contact Me</h3>
-          <ListGroup className="mb-5">
-            <ListGroup.Item>Email: youremail@example.com</ListGroup.Item>
-            <ListGroup.Item>Phone: (123) 456-7890</ListGroup.Item>
-            <ListGroup.Item>Address: 123 Main St, Anytown, USA</ListGroup.Item>
+          <h3 className="mb-3">contacts:</h3>
+          <ListGroup className="border-0">
+            <ListGroup.Item className="border-0">
+              Email: manyakulakart@gmail.com
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0">
+            instagramm: manyakulakart
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0">
+            linkedin: manyakulakart
+            </ListGroup.Item>
           </ListGroup>
         </Col>
       </Row>

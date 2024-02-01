@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { data } from "../../constants";
+import { Container} from "react-bootstrap";
 
 import "./Gallary.css";
 
@@ -44,7 +45,7 @@ const Gallary = () => {
     //   </div>
     // </div>
 
-    <div id="services" className="d-block pt-md-4">
+    <Container fluid >
       <div className="row g-4">
         {data.PreviewData.map(
           ({ titleone, titletwo, link, itemclass, imgURL }, index) => (
@@ -70,7 +71,8 @@ const Gallary = () => {
           )
         )}
       </div>
-    </div>
+      </Container>
+
   );
 };
 
