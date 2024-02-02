@@ -6,6 +6,7 @@ import   Project2     from './pages/projects/Project_2';
 
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
+import React from 'react';
 
 
 
